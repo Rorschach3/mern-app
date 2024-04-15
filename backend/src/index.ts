@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/test", async (req: Request, res: Response) => {
-    res.json({ message: "Hello!" });
+    res.json({ message: "Backend-Hello!" });
 });
 
 const PORT = process.env.PORT || 7000;

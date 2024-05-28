@@ -1,3 +1,4 @@
+import { useAuth0 } from "@auth0/auth0-react";
 import { useMutation } from "react-query";
 import { useAuth0 } from "@auth0/auth0-react";
 
@@ -39,6 +40,6 @@ export const useCreateMyUser =  () => {
         isLoading,
         isError,
         isSuccess,
-        };
     };
+};
 

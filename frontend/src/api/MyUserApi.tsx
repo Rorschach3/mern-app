@@ -8,16 +8,14 @@ type CreateUserRequest = {
 };
 
 export const useCreateMyUser =  () => {
-<<<<<<< HEAD
     const { getAccessTokenSilently } = useAuth0(); 
 
 
-=======
->>>>>>> parent of e5c32e9 (Auth0 Access Token)
     const createMyUserRequest = async (user: CreateUserRequest) => {
         const response = await fetch(`${API_BASE_URL}/api/my/user`, {
             method: "POST",
             headers: {
+                Authorization: `Bearer 
                 "Content-Type": "application/json",
             },
             body: JSON.stringify(user),

@@ -22,8 +22,8 @@ export const useCreateMyUser =  () => {
             },
             body: JSON.stringify(user),
         });
-
-        if(!response.ok){
+    
+        if (!response.ok) {
             throw new Error("Failed to create user");
         }
     };
@@ -32,7 +32,7 @@ export const useCreateMyUser =  () => {
         mutateAsync: createUser,
         isLoading,
         isError,
-        isSuccess
+        isSuccess,
     } = useMutation(createMyUserRequest);
 
     return {
@@ -40,6 +40,5 @@ export const useCreateMyUser =  () => {
         isLoading,
         isError,
         isSuccess,
-        };
     };
-
+};

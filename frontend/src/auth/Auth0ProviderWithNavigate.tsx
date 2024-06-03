@@ -6,6 +6,7 @@ type Props = {
 };
 
 const Auth0ProviderWithNavigate = ({ children }: Props) => {
+
   const navigate = useNavigate();
 
   const domain = import.meta.env.VITE_AUTH0_DOMAIN;

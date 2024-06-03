@@ -2,6 +2,7 @@
   "include": ["vite.config.ts", "src"],
   "exclude": ["node_modules", "dist"],
   "compilerOptions": {
+    "jsx": "react",
     "composite": true,
     "skipLibCheck": true,
     "module": "ESNext",

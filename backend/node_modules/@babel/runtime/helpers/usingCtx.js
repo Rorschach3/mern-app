@@ -44,4 +44,4 @@ function _usingCtx() {
     }
   };
 }
-export { _usingCtx as default };
+module.exports = _usingCtx, module.exports.__esModule = true, module.exports["default"] = module.exports;

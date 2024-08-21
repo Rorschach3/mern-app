@@ -6,3 +6,6 @@ backend/package.json
 frontend/package-lock.json
 frontend/node_modules
 backend/node_modules
+frontend/.eslintr.cjs
+frontend/package.json
+frontend/components.json

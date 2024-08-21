@@ -15,6 +15,7 @@ export const useGetMyUser = () => {
         const response = await fetch(`${API_BASE_URL}/api/my/user`, {
             headers: {
                 Authorization: `Bearer ${accessToken}`,
+                "Content-Type": "application/json",
             },
         });
 

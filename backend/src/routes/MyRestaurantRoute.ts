@@ -21,7 +21,7 @@ upload.single("imageFile"),
 validateMyRestaurantRequest,
 jwtCheck,
 jwtParse,
-    MyRestaurantController.createMyRestaurant
+MyRestaurantController.createMyRestaurant
 );
 
 export default router;
